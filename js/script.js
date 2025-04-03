@@ -51,7 +51,7 @@ function setPoang(){
     avslutaRunda();
 
     if (totalPoang >= 100) {
-        window.location.href = `Resultat.html?namn=${encodeURIComponent(namn)}&poang=${totalPoang}&omgang=${omgang}`;
+        window.location.href = `resultat.html?namn=${encodeURIComponent(namn)}&poang=${totalPoang}&omgang=${omgang}`;
     }
 }
 
