@@ -9,5 +9,5 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function playAgain() {
-    window.location.href = `/java24-js-i1-emile-schlick/spel.html?namn=${encodeURIComponent(namn)}`;
+    window.location.href = `index.html`;
 }
