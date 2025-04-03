@@ -9,5 +9,5 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function playAgain() {
-    window.location.href = `spel.html?namn=${encodeURIComponent(namn)}`;
+    window.location.href = `.spel.html?namn=${encodeURIComponent(namn)}`;
 }
