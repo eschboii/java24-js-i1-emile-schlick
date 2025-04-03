@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Pig Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <div class="info-box">
+                <label for="namnBox">Namn</label>
+                <div class="box" id="namnBox">Namn</div>
+            </div>
+            <div class="info-box">
+                <label for="omgangBox">Omgång</label>
+                <div class="box small" id="omgangBox">Omgång</div>
+            </div>
+            <div class="info-box">
+                <label for="rundanBox">Rundans poäng</label>
+                <div class="box" id="rundanBox">Rundans poäng</div>
+            </div>
+            <div class="info-box">
+                <label for="totPoangBox">Total poäng</label>
+                <div class="box" id="totPoangBox">Total poäng</div>
+            </div>
+        </div>
+        
+
+        <div class="dice-container">
+            <div class="die one show">
+                <div></div>
+            </div>
+            <div class="die two">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="die three">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="die four">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="die five">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="die six">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <div class="button" id="kastaBtn" onclick="setDice()">Kasta</div>
+            <div class="button" id="behallBtn" onclick="setPoang()">Behåll</div>
+        </div>
+    </div>
+</body>
+</html>
